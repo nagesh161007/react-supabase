@@ -1,0 +1,5 @@
+.app-container {
+    height: calc(100vh - 51px);
+    background-color: #f2f2f2;
+    overflow: scroll;
+}

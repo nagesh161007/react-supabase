@@ -1,0 +1,47 @@
+/* Navbar.css */
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links a {
+    color: #f2f2f2; /* Text color */
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #d4f291; /* Secondary color */
+}
+
+.navbar {
+    background-color: #0a4036; /* Primary color */
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #d4f291;
+}
+
+.navbar a {
+    color: #d4f291;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: #d4f291;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid hsl(79, 79%, 76%);
+    border-radius: 8px;
+}

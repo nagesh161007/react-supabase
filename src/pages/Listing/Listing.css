@@ -1,0 +1,92 @@
+.listing-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.listing-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.upload-image {
+    cursor: pointer;
+}
+
+.image-section {
+    border: 2px dashed #0a4036;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.form-fields {
+    padding: 16px;
+    min-width: 400px;
+    border-radius: 8px;
+}
+
+.form-content {
+    margin-left: 20px;
+    border-left: 1px solid lightgray;
+}
+
+.listing-form input,
+.listing-form textarea,
+.listing-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+}
+
+.listing-form label {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+}
+
+.listing-form-button {
+    background-color: #0a4036;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.listing-form-button:hover {
+    background-color: darken(#0a4036, 10%);
+}
+
+.listing-form-button:disabled {
+    opacity: 0.6;
+}
+
+.image-preview {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.error {
+    color: red;
+}

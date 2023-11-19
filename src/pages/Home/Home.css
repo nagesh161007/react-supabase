@@ -1,0 +1,61 @@
+/* Styling for the container using flexbox */
+.listings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* Adjust the items spaciously along the line */
+    align-items: flex-start; /* Align items from the start of the cross axis */
+    background-color: #f4f4f4;
+}
+
+.listing-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.listing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.listing-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.listing-card h3,
+p,
+a {
+    padding: 4px;
+    margin: 4px;
+}
+
+.listing-card h3 {
+    background-color: #0a4036;
+    color: #d4f291;
+    margin: 0;
+    border-bottom: 1px solid #ddd; /* Adds a subtle line between the title and content */
+}
+
+.listing-card a {
+    margin-top: auto; /* Pushes the link to the bottom of the card */
+    background-color: #0a4036;
+    color: #d4f291;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.listing-card a:hover {
+    background-color: #015041;
+}
